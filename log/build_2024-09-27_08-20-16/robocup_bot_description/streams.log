@@ -1,0 +1,20 @@
+[0.358s] Invoking command in '/home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description': PYTHONPATH=/home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/prefix_override:/home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/build --no-deps symlink_data
+[0.490s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.490s]   warnings.warn(
+[0.512s] running develop
+[0.512s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.512s]   warnings.warn(
+[0.606s] running egg_info
+[0.606s] writing robocup_bot_description.egg-info/PKG-INFO
+[0.606s] writing dependency_links to robocup_bot_description.egg-info/dependency_links.txt
+[0.606s] writing entry points to robocup_bot_description.egg-info/entry_points.txt
+[0.606s] writing requirements to robocup_bot_description.egg-info/requires.txt
+[0.606s] writing top-level names to robocup_bot_description.egg-info/top_level.txt
+[0.607s] reading manifest file 'robocup_bot_description.egg-info/SOURCES.txt'
+[0.608s] writing manifest file 'robocup_bot_description.egg-info/SOURCES.txt'
+[0.608s] running build_ext
+[0.608s] Creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/lib/python3.10/site-packages/robocup-bot-description.egg-link (link to .)
+[0.609s] 
+[0.609s] Installed /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description
+[0.609s] running symlink_data
+[0.626s] Invoked command in '/home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description' returned '0': PYTHONPATH=/home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/prefix_override:/home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/build --no-deps symlink_data

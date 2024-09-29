@@ -1,0 +1,46 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating robocup_bot_description.egg-info
+writing robocup_bot_description.egg-info/PKG-INFO
+writing dependency_links to robocup_bot_description.egg-info/dependency_links.txt
+writing entry points to robocup_bot_description.egg-info/entry_points.txt
+writing requirements to robocup_bot_description.egg-info/requires.txt
+writing top-level names to robocup_bot_description.egg-info/top_level.txt
+writing manifest file 'robocup_bot_description.egg-info/SOURCES.txt'
+reading manifest file 'robocup_bot_description.egg-info/SOURCES.txt'
+writing manifest file 'robocup_bot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/lib/python3.10/site-packages/robocup-bot-description.egg-link (link to .)
+
+Installed /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description
+running symlink_data
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/ament_index
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/ament_index/resource_index
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/ament_index/resource_index/packages
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/resource/robocup_bot_description -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/ament_index/resource_index/packages
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/package.xml -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/launch
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/launch/display.launch.py -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/launch
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/launch/gazebo.launch.py -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/launch
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/urdf
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/urdf/robocup_bot.xacro -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/urdf
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/urdf/robocup_bot.trans -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/urdf
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/urdf/materials.xacro -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/urdf
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/urdf/camera.xacro -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/urdf
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/urdf/robocup_bot.gazebo -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/urdf
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/wheel4_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/cam1_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/cam2_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/wheel1_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/cam4_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/cam3_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/base_link.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/wheel3_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/meshes/wheel2_1.stl -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/meshes
+creating /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/config
+symbolically linking /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/build/robocup_bot_description/config/display.rviz -> /home/nayaniom/ros2_ws/src/robocup_bot_description/robocup_bot_description/install/robocup_bot_description/share/robocup_bot_description/config
