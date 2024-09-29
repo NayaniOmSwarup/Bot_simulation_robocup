@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+
+    <joint name="camera_optical_joint_1" type="fixed">
+        <parent link="cam1_1"/>
+        <child link="camera_link_optical_1"/>
+        <origin xyz="0 0 0" rpy="${0} 0 ${pi}"/>
+    </joint>
+
+    <link name="camera_link_optical_1"/>
+
+    <gazebo reference="camera_link_optical_1">
+        <sensor name="camera_1" type="camera">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera>
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>8.0</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller_1" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_1</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <joint name="camera_optical_joint_2" type="fixed">
+        <parent link="cam2_1"/>
+        <child link="camera_link_optical_2"/>
+        <origin xyz="0 0 0" rpy="${0} 0 ${pi/2}"/>
+    </joint>
+
+    <link name="camera_link_optical_2"/>
+
+    <gazebo reference="camera_link_optical_2">
+        <sensor name="camera_2" type="camera">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera>
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>8.0</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller_2" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_2</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+
+    <joint name="camera_optical_joint_3" type="fixed">
+        <parent link="cam3_1"/>
+        <child link="camera_link_optical_3"/>
+        <origin xyz="0 0 0" rpy="${0} 0 ${0}"/>
+    </joint>
+
+    <link name="camera_link_optical_3"/>
+
+    <gazebo reference="camera_link_optical_3">
+        <sensor name="camera_3" type="camera">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera>
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>8.0</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller_3" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_3</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <joint name="camera_optical_joint_ 4" type="fixed">
+        <parent link="cam4_1"/>
+        <child link="camera_link_optical_4"/>
+        <origin xyz="0 0 0" rpy="${0} 0 ${-pi/2}"/>
+    </joint>
+
+    <link name="camera_link_optical_4"/>
+
+    <gazebo reference="camera_link_optical_4">
+        <sensor name="camera_4" type="camera">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>true</visualize>
+            <update_rate>10</update_rate>
+            <camera>
+                <horizontal_fov>1.089</horizontal_fov>
+                <image>
+                    <format>R8G8B8</format>
+                    <width>640</width>
+                    <height>480</height>
+                </image>
+                <clip>
+                    <near>0.05</near>
+                    <far>8.0</far>
+                </clip>
+            </camera>
+            <plugin name="camera_controller_4" filename="libgazebo_ros_camera.so">
+                <frame_name>camera_link_optical_4</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+
+</robot>

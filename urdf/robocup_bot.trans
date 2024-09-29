@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<robot name="robocup_bot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="wheel42base_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wheel42base">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wheel42base_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wheel22base_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wheel22base">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wheel22base_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wheel32base_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wheel32base">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wheel32base_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="wheel12base_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="wheel12base">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="wheel12base_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>
